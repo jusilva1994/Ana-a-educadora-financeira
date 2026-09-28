@@ -9,20 +9,41 @@
 
 ## Dados Utilizados
 
-| Arquivo | Formato | Para que serve no Edu? |
-|---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, ou seja, dar continuidade ao atendimento de forma mais eficiente. |
-| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
-| `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e usar essas informações de forma didática. |
+| Arquivo                     | Formato | Para que serve na Ana? |
+|------------------------------|---------|------------------------|
+| `historico_atendimento.csv` | CSV     | Contextualizar interações anteriores, permitindo dar continuidade ao atendimento de forma mais eficiente. |
+| `perfil_investidor.json`    | JSON    | Personalizar as explicações de acordo com as dúvidas e necessidades de aprendizado do cliente. |
+| `produtos_financeiros.json` | JSON    | Listar os produtos financeiros disponíveis para que possam ser ensinados ao cliente. |
+| `transacoes.csv`            | CSV     | Analisar padrões de gastos do cliente e usar essas informações de forma didática. |
+| `conceitos_basicos.json`    | JSON    | Definir e explicar conceitos financeiros fundamentais de forma clara e prática. |
+| `exercicios.csv`            | CSV     | Propor exercícios interativos para reforçar o aprendizado e garantir melhor compreensão dos assuntos. |
 
 ---
 
-## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
+## 📂 Dados Mockados e Ajustes
 
-Não. Os dados mockados utilizados foram os mesmos fornecidos inicialmente, ou seja, os dados do João. Posteriormente, foram adicionadas novas informações ao arquivo `conceitos_dados.json`, pois as respostas obtidas inicialmente não estavam satisfatórias. Dessa forma, foram incluídos dados complementares para melhorar a qualidade e a precisão das respostas.
+Os dados utilizados inicialmente foram os do **João Silva**, definidos no arquivo `perfil_investidor.json`. Esse perfil fictício serviu como base para simular cenários reais de atendimento e personalização das respostas da Ana.
+
+Posteriormente, foi criado o arquivo `conceitos_dados.json`, adicionando informações complementares. Essa atualização foi necessária porque as respostas iniciais não estavam satisfatórias em termos de clareza e precisão. Com os novos dados, a Ana passou a oferecer explicações mais completas e consistentes.
+
+## ⚙️ Escolhas Técnicas
+
+## 📏 Regras e Blindagem da Ana
+
+Para evitar alucinações e garantir respostas consistentes, foram definidas regras rígidas de funcionamento:
+
+- **Neutralidade:** A Ana nunca recomenda investimentos específicos, apenas explica conceitos e características.  
+- **Uso de dados mockados:** Sempre utiliza os dados fornecidos (ex.: João Silva) sem inventar valores.  
+- **Glossário oficial:** Explicações de CDI, Selic, Liquidez e Inflação seguem estritamente o arquivo `conceitos_basicos.json`.  
+- **Matemática controlada:** Nunca recalcula de cabeça; usa apenas os valores do `RESUMO FINANCEIRO CALCULADO`.  
+- **Categorias de gastos:** Sempre respeita os dados do `transacoes.csv` sem misturar categorias.  
+- **Tesouro Selic:** Explicado corretamente como título de vencimento longo, mas com liquidez diária.  
+
+### Escolhas técnicas
+- **Modelo LLM:** Foi escolhido o `llama 3.2:3b` por ser mais leve, adequado a PCs com pouca memória, garantindo maior velocidade nas respostas.  
+- **Arquivo `exercicios.csv`:** Incluído para propor exercícios práticos e engajar o usuário no aprendizado.  
+- **Arquivo `conceitos_dados.json`:** Adicionado para complementar informações e melhorar a precisão das explicações.  
 
 ---
 
