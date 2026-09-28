@@ -66,6 +66,7 @@ flowchart TD
 ollama pull llama3.2:3b
 ollama serve
 
+```
 
 ### 2. Instalar Dependências
 
