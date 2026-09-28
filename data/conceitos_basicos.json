@@ -1,0 +1,22 @@
+[
+  {
+    "termo": "CDI",
+    "definicao": "CDI significa Certificado de Depósito Interbancário. É a taxa de juros utilizada nos empréstimos de curtíssimo prazo (de apenas 1 dia) que os bancos fazem entre si para fechar o dia com saldo positivo. Ela é calculada pela B3 e serve como o principal indicador (rendimento de referência) para investimentos de renda fixa. Exemplo: um CDB que rende 100% do CDI acompanha exatamente essa taxa diária."
+  },
+  {
+    "termo": "Selic",
+    "definicao": "A Selic é a taxa básica de juros da economia brasileira, definida a cada 45 dias pelo Banco Central. Ela serve como a 'mãe' de todas as outras taxas do país. Exemplo: quando a Selic sobe, os rendimentos de investimentos em renda fixa (como o Tesouro Selic) aumentam, mas os empréstimos e financiamentos ficam mais caros; quando cai, o crédito fica mais barato, mas a renda fixa rende menos."
+  },
+  {
+    "termo": "Liquidez",
+    "definicao": "Liquidez é a velocidade com que você consegue resgatar o seu investimento e transformá-lo em dinheiro na sua conta bancária. Exemplo: a caderneta de poupança ou um CDB de 'liquidez diária' podem ser resgatados no mesmo dia (alta liquidez); já um imóvel ou um investimento com vencimento em 3 anos têm baixa liquidez, pois não podem ser convertidos em dinheiro imediatamente sem perdas."
+  },
+  {
+    "termo": "Inflação",
+    "definicao": "Inflação é a alta generalizada e contínua dos preços de produtos e serviços ao longo do tempo. Na prática, ela reduz o seu 'poder de compra' — o que significa que o mesmo dinheiro compra menos coisas hoje do que comprava no passado. Exemplo: se uma compra de supermercado custava R$ 100,00 no ano passado e as mesmas mercadorias hoje custam R$ 108,00, a diferença representa a inflação do período."
+  },
+  {
+  "termo": "Tesouro Selic",
+  "definicao": "O Tesouro Selic é um título público pós-fixado de renda fixa emitido pelo Governo Federal. Seu rendimento acompanha diariamente a variação da Taxa Selic. Possui altíssima segurança (garantido pelo Tesouro Nacional) e liquidez diária (pode ser resgatado em dias úteis a qualquer momento antes do vencimento, que costuma ser de vários anos)."
+}
+]

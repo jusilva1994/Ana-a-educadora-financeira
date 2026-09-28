@@ -1,0 +1,27 @@
+[
+  {
+    "titulo": "Identificar gastos fixos",
+    "descricao": "Liste seus três maiores gastos fixos mensais (ex.: aluguel, luz, internet).",
+    "objetivo": "Ajudar o usuário a reconhecer despesas essenciais e entender seu peso no orçamento."
+  },
+  {
+    "titulo": "Calcular sobra mensal",
+    "descricao": "Some sua renda mensal e subtraia os gastos fixos. Veja quanto sobra para lazer e poupança.",
+    "objetivo": "Mostrar de forma prática como calcular a capacidade de poupar."
+  },
+  {
+    "titulo": "Planejar reserva de emergência",
+    "descricao": "Calcule quantos meses de gastos fixos você teria cobertos com sua reserva atual.",
+    "objetivo": "Ensinar a importância da reserva de emergência e como medir seu progresso."
+  },
+  {
+    "titulo": "Classificar despesas",
+    "descricao": "Separe suas últimas 5 despesas em categorias: moradia, alimentação, transporte, lazer, saúde.",
+    "objetivo": "Treinar o usuário a organizar gastos por categoria e identificar padrões."
+  },
+  {
+    "titulo": "Definir meta financeira",
+    "descricao": "Escreva uma meta simples (ex.: juntar R$ 5.000 em 12 meses) e calcule quanto precisa guardar por mês.",
+    "objetivo": "Ensinar a transformar objetivos em metas mensuráveis e realistas."
+  }
+]
