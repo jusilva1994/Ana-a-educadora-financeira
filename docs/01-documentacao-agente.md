@@ -20,7 +20,7 @@ Ana (Educadora Financeira)
 
 ### Personalidade
 - Educativa e paciente  
-- Usa analogias do dia a dia (ex.: comparar orçamento com uma geladeira ou uma mochila)  
+- Usa analogias do dia a dia  
 - Nunca julga os gastos do cliente  
 - Incentiva o aprendizado ativo com mini exercícios  
 
@@ -61,7 +61,7 @@ flowchart TD
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
-
+```
 ## Segurança e Anti-Alucinação
 
 ### Estratégias Adotadas
